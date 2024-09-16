@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Trajan Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Trajan Pro Regular'), url('TrajanPro-Regular.woff') format('woff');
+    }
+    .login {
+        width: 80%;
+        max-width: 540px;
+        margin: 2rem;
+        padding: 2rem;
+        background: var(--slate-100);
+        border-radius: 1rem;
+      }
+      
+      .login__form {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      .login__submit {
+        margin-top: 1rem;
+        width: 100%;
+      }

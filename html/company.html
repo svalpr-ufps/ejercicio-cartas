@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thorin Oakenshield's Company</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/company.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body class="body--full body--centered body--colored-slate">
+    <main class="app">
+      <section class="image-section" id="img-members"></section>
+      <table class="table-section">
+        <thead>
+          <th>#</th>
+          <th>Name</th>
+        </thead>
+        <tbody id="table-members"></tbody>
+      </table>
+      <section class="register-member">
+        <h2 class="register-member__title">Members Register</h2>
+        <form id="register" class="register-member__form">
+    
+          <div class="input-container">
+            <label for="member-number" class="input-container__label"
+              >Character</label
+            >
+            <select
+              id="member-number"
+              name="member-number"
+              class="input-container__input"
+            >
+              <option value="1">Thorin</option>
+              <option value="2">Bilbo</option>
+              <option value="3">Gandalf</option>
+              <option value="4">Fili</option>
+              <option value="5">Kili</option>
+              <option value="6">Balin</option>
+              <option value="7">Dwalin</option>
+              <option value="8">Dori</option>
+              <option value="9">Nori</option>
+              <option value="10">Ori</option>
+              <option value="11">Bifur</option>
+              <option value="12">Bofur</option>
+              <option value="13">Bombur</option>
+              <option value="14">Oin</option>
+              <option value="15">Gloin</option>
+            </select>
+        </div>
+        
+          <input
+            type="submit"
+            value="Register"
+            class="register-member__submit"
+          />
+        </form>
+      </section>
+    </main>
+
+    <script src="./js/company.js"></script>
+  </body>
+</html>

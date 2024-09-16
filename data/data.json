@@ -1,0 +1,20 @@
+[{ "number": "1", "name": "Thorin", "quantity": 1 }]
+/*
+[
+	{"id": "1", "name": "Thorin", "appearances": 0},
+	{"id": "2", "name": "Bilbo", "appearances": 0},
+	{"id": "3", "name": "Gandalf", "appearances": 0},
+	{"id": "4", "name": "Fili", "appearances": 0},
+	{"id": "5", "name": "Kili", "appearances": 0},
+	{"id": "6", "name": "Balin", "appearances": 0},
+	{"id": "7", "name": "Dwalin", "appearances": 0},
+	{"id": "8", "name": "Dori", "appearances": 0},
+	{"id": "9", "name": "Nori", "appearances": 0},
+	{"id": "10", "name": "Ori", "appearances": 0},
+	{"id": "11", "name": "Bifur", "appearances": 0},
+	{"id": "12", "name": "Bofur", "appearances": 0},
+	{"id": "13", "name": "Bombur", "appearances": 0},
+	{"id": "14", "name": "Oin", "appearances": 0},
+	{"id": "15", "name": "Gloin", "appearances": 0}
+  ]
+  
